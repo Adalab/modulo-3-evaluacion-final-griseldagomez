@@ -25,9 +25,3 @@ Instrucciones sobre cómo usar el proyecto después de la instalación.
 
 Una vez que el servidor está en funcionamiento, abre tu navegador y navega a http://localhost:5173 para acceder a la aplicación.
 
-Cuando se requiera actualizar githubpages sigue estos pasos.
-
-Ejecuta:
- -npm run build 
- -mueve todos los archivos de la carpeta dist a la carpeta docs - 
- -haz un commit.
