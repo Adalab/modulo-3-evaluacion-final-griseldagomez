@@ -1,8 +1,16 @@
 import React from 'react'
 
-function Filter() {
+function Filter(characters) {
+  const handleChangeInput = (ev) => {
+    characters.onChangeFilter(ev.target.value);
+  }
   return (
-    <div>Filter</div>
+
+    <form>
+      <label htmlFor="titleFilter">Filtra:</label>
+      <input type="text" id="titleFilter" onChange={handleChangeInput} />
+    </form>
+
   )
 }
 
