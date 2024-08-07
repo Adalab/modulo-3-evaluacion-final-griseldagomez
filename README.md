@@ -19,7 +19,7 @@ Una vez que el servidor está en funcionamiento, abre tu navegador y navega a ht
 
 Cuando se requiera actualizar githubpages sigue estos pasos.
 
-ejecuta:
+Ejecuta:
 1-npm run build 
 2-mueve todos los archivos de la carpeta dist a la carpeta docs - 
 3-haz un commit.
