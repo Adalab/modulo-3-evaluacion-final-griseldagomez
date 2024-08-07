@@ -1,12 +1,13 @@
-Esta aplicación web se trata de un listado de personajes de Rick and Morty. Los cuales podran ser filtrados por nombre. A su vez al seleccionar en su nombre abrirá una ruta donde se verá la informacion del personaje elegido.
+Esta aplicación web se trata de un listado de personajes de Rick and Morty. Los cuales podran ser filtrados por nombre. Cuando se hace click en el nombre del personaje escogido se abrirá otra ruta donde se verá la información detallada del mismo.
 
-Direccion en github pages: http://beta.adalab.es/modulo-3-evaluacion-final-griseldagomez/
+Dirección en github pages: http://beta.adalab.es/modulo-3-evaluacion-final-griseldagomez/
 
 Instrucciones paso a paso sobre cómo instalar el proyecto en una máquina local.
 
 Clona el repositorio:
 
 git clone https://github.com/Adalab/modulo-2-evaluacion-final-griseldagomez.git
+
 Instala las dependencias:
 npm install
 
