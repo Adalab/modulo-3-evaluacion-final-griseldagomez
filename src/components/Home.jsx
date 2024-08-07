@@ -7,11 +7,24 @@ function Home({ characters }) {
 
     const handleFilter = (value) => {
         SetFilterInput(value);
+    
     };
     
     const filterName = characters.filter((character)=> {
         return character.name.toLowerCase().includes(filterInput.toLowerCase());
-    });
+    })
+    .sort((a, b) => {
+        
+            if (a.name > b.name) {
+              return 1;
+            }
+            if (a.name < b.name) {
+              return -1;
+            }
+           
+            return 0;
+          });
+   
     
     return (
         <>

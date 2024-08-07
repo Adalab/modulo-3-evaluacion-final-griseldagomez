@@ -5,6 +5,7 @@ import { Route, Routes, useLocation, matchPath } from "react-router-dom";
 
 const App = () => {
   const [lists, setLists] = useState([]);
+ 
 
   useEffect(() => {
     fetch("https://rickandmortyapi.com/api/character")
