@@ -6,13 +6,20 @@ Instrucciones paso a paso sobre cómo instalar el proyecto en una máquina local
 
 Clona el repositorio:
 
-git clone https://github.com/Adalab/modulo-2-evaluacion-final-griseldagomez.git
+```bash
+git clone https://github.com/Adalab/modulo-3-evaluacion-final-griseldagomez.git
+```
 
 Instala las dependencias:
+```bash
 npm install
+```
 
 Inicia el servidor:
+
+```bash
 npm run dev
+```
 
 Instrucciones sobre cómo usar el proyecto después de la instalación.
 
@@ -21,6 +28,6 @@ Una vez que el servidor está en funcionamiento, abre tu navegador y navega a ht
 Cuando se requiera actualizar githubpages sigue estos pasos.
 
 Ejecuta:
-1-npm run build 
-2-mueve todos los archivos de la carpeta dist a la carpeta docs - 
-3-haz un commit.
+ -npm run build 
+ -mueve todos los archivos de la carpeta dist a la carpeta docs - 
+ -haz un commit.
