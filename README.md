@@ -1,4 +1,4 @@
-Esta aplicación web se trata de un listado de personajes de Rick and Morty, los cuales podran ser filtrados por nombre. Cuando se hace click en el nombre del personaje escogido se abrirá otra ruta donde se verá la información detallada del mismo.
+Esta aplicación web se trata de un listado de personajes de Rick and Morty, los cuales podran ser filtrados por nombre. Cuando se hace click en el nombre del personaje escogido se abrirá otra ruta donde se verá la información detallada del mismo. Se ha utilizado react para programarla.
 
 Dirección en github pages: http://beta.adalab.es/modulo-3-evaluacion-final-griseldagomez/
 
