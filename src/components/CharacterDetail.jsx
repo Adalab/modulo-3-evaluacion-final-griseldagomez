@@ -1,4 +1,6 @@
 import CharacterCard from "./CharacterCard";
+import "../scss/components/CharacterDetail.scss";
+
 
 function CharacterDetail({ character }) {
   if (character === undefined) {
@@ -6,11 +8,11 @@ function CharacterDetail({ character }) {
   }
 
   return ( 
-    <div>
-      <CharacterCard character={character}/>
-      <p>Status: {character.status}</p>
-      <p>Origin: {character.origin.name}</p>
-      <p>Episodes: {character.episode.length}</p>
+    <div className="text" >
+      <CharacterCard  character={character}/>
+      <p >Status: {character.status}</p>
+      <p >Origin: {character.origin.name}</p>
+      <p >Episodes: {character.episode.length}</p>
     </div>
   );
 }

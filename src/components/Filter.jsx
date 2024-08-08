@@ -1,5 +1,6 @@
-import React from 'react'
+import "../scss/components/Filter.scss";
 import PropTypes from "prop-types";
+
 
 function Filter({onChangeFilter}) {
   const handleChangeInput = (ev) => {
@@ -7,9 +8,9 @@ function Filter({onChangeFilter}) {
   };
 
   return (
-    <form>
-      <label htmlFor="titleFilter">Filtra:</label>
-      <input type="text" id="titleFilter" onChange={handleChangeInput} />
+    <form >
+      <label className="inputtext" htmlFor="titleFilter">Buscar:</label>
+      <input className='input' type="text" id="titleFilter" onChange={handleChangeInput} />
     </form>
   );
 }

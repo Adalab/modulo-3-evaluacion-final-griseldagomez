@@ -1,3 +1,4 @@
+import  "../scss/App.scss";
 import Home from "./Home";
 import CharacterDetail from "./CharacterDetail";
 import { useState, useEffect } from "react";
