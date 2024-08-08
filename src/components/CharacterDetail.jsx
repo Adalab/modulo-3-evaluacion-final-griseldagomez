@@ -8,12 +8,14 @@ function CharacterDetail({ character }) {
   }
 
   return ( 
+    <section className="container">
     <div className="text" >
       <CharacterCard  character={character}/>
       <p >Status: {character.status}</p>
       <p >Origin: {character.origin.name}</p>
       <p >Episodes: {character.episode.length}</p>
     </div>
+    </section>
   );
 }
 

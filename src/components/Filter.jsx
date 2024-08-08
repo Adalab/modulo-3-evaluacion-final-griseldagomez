@@ -9,7 +9,7 @@ function Filter({onChangeFilter}) {
 
   return (
     <form >
-      <label className="inputtext" htmlFor="titleFilter">Buscar:</label>
+      <label className="inputtext" htmlFor="titleFilter"> Buscar:</label>
       <input className='input' type="text" id="titleFilter" onChange={handleChangeInput} />
     </form>
   );

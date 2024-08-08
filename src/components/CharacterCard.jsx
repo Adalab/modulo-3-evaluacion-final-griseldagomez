@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 function CharacterCard({ character }) {
   return (
+    <section>
     <div className="character">
       <p>
         <img src={character.image} alt={character.name} />
@@ -11,8 +12,8 @@ function CharacterCard({ character }) {
         </Link>
       </p>
         <p>{character.species}</p>
-
     </div>
+    </section>
   );
 }
 

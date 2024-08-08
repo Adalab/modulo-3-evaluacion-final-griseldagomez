@@ -1,8 +1,18 @@
-.input {
-    border: 3px solid  rgb(23, 219, 241);
-    width: 230px;
-   
+form {
+    display: flex;
+    justify-content: center;
+    align-items:start;
 }
+
+.input {
+
+    border: 2px solid rgb(23, 219, 241);
+    width: 200px;
+    height: 30px;
+
+
+}
+
 .inputtext {
     color: white;
     margin: 10px;
