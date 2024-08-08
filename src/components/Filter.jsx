@@ -15,7 +15,7 @@ function Filter({onChangeFilter}) {
   );
 }
 
-Filter.PropTypes = {
+Filter.propTypes = {
   onChangeFilter: PropTypes.func.isRequired,
 };
 

@@ -1,5 +1,7 @@
 import CharacterCard from "./CharacterCard";
 import "../scss/components/CharacterDetail.scss";
+import { Link } from "react-router-dom";
+
 
 
 function CharacterDetail({ character }) {
@@ -9,7 +11,9 @@ function CharacterDetail({ character }) {
 
   return ( 
     <section className="container">
+     
     <div className="text" >
+      <Link to="/">Volver</Link>
       <CharacterCard  character={character}/>
       <p >Status: {character.status}</p>
       <p >Origin: {character.origin.name}</p>
